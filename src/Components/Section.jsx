@@ -1,6 +1,6 @@
 function Section({ id, className, children, ...props }) {
   return (
-    <section id={id} {...props} className={className}>
+    <section id={id} {...props} className={`w-full h-screen ${className}`}>
       {children}
     </section>
   );
