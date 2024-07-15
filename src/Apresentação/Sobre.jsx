@@ -1,7 +1,4 @@
-import Button from "../Components/Button";
 import Line from "../Components/Line";
-import Photo from "../Components/Photo";
-import Social from "../Components/Social";
 import Text from "../Components/Text";
 import Title from "../Components/Title";
 
@@ -10,8 +7,8 @@ function Sobre() {
     <>
       <Title title={"2"}>Sobre mim</Title>
       <Line />
-      <div className="grid grid-cols-[1fr_auto_1fr] gap-[20px]">
-        <div className="grid gap-[50px] gap w-[90%]">
+      <div className="md:grid grid-cols-[1fr_auto_1fr] md:gap-[20px]">
+        <div className="grid gap-7 md:w-[90%]">
           <Text>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
             architecto quod illum reiciendis et nobis, rerum ipsam aliquid
@@ -32,9 +29,15 @@ function Sobre() {
           </Text>
         </div>
 
-        <Line direction={"vertical"} />
+        <div className="hidden md:block">
+          <Line direction={"vertical"} />
+        </div>
 
-        <div className="grid gap-[50px] w-[90%] ml-[50px]">
+        <div className="block md:hidden">
+          <Line direction={"horizontal"} className={"mb-12 mt-12"} />
+        </div>
+
+        <div className="grid gap-7 md:w-[90%] md:ml-[50px]">
           <Text>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
             architecto quod illum reiciendis et nobis, rerum ipsam aliquid

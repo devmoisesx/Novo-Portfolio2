@@ -7,18 +7,20 @@ import Title from "../Components/Title";
 function InicioApresentacao() {
   return (
     <>
-      <div className="flex flex-col gap-5">
-        <div className="">
-          <Title title="1">Moisés Xavier</Title>
-          <Text>Lorem ipsum dolor sit amet consectetur adipisicing elit.</Text>
+      <div className="flex flex-col gap-20 md:gap-10">
+        <div className="text-center md:text-left flex flex-col gap-2 md:ml-7">
+          <Title title="1" className={"text-4xl md:text-6xl"}>Moisés Xavier</Title>
+          <Text className={"text-lg"}>Lorem ipsum dolor sit amet consectetur adipisicing elit.</Text>
         </div>
-        <div className="flex align-middle gap-2">
+        <div className="flex flex-col md:flex-row align-middle gap-2 md:ml-7">
           <Button className={"text-[18px] py-2 px-3"}>Baixar Currículo</Button>
           <Social>A</Social>
           <Social>A</Social>
         </div>
       </div>
-      <Photo />
+      <div className="hidden md:block">
+        <Photo />
+      </div>
     </>
   );
 }

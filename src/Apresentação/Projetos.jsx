@@ -12,9 +12,7 @@ function Projetos() {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint neque ea
         nesciunt quisquam deserunt.
       </Text>
-      <div className="grid grid-cols-3 grid-rows-[220px_220px] gap-[18px] mt-[50px] mx-[-50px]">
-        <CardProject name={"Nome do Projeto"} tecnologies={"stack utilizada"} />
-        <CardProject name={"Nome do Projeto"} tecnologies={"stack utilizada"} />
+      <div className="flex flex-col md:grid md:grid-cols-2  md:grid-rows-[auto_auto] gap-9 mt-[50px]">
         <CardProject name={"Nome do Projeto"} tecnologies={"stack utilizada"} />
         <CardProject name={"Nome do Projeto"} tecnologies={"stack utilizada"} />
         <CardProject name={"Nome do Projeto"} tecnologies={"stack utilizada"} />

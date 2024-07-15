@@ -1,6 +1,6 @@
 function Text({ className, children, ...props }) {
     return (
-      <p className={`text-[15px] ${className}`} {...props}>
+      <p className={`text-[16px] ${className}`} {...props}>
         {children}
       </p>
     );

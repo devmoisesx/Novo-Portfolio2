@@ -8,16 +8,16 @@ function Apresentacao() {
     <>
       <Section
         id="inicioApresentacao"
-        className="grid grid-cols-[auto_auto] justify-items-center items-center gap-20 w-full h-screen"
+        className="flex md:grid md:grid-cols-[50%_auto] lg:grid-cols-[auto_auto] justify-items-center items-center lg:gap-20 w-full h-fit mt-48 md:mt-80 mb-20 "
       >
         <InicioApresentacao />
       </Section>
 
-      <Section id="projetos">
+      <Section id="projetos" className={"h-max"}>
         <Projetos />
       </Section>
 
-      <Section id="sobre" className={"h-[100%]"}>
+      <Section id="sobre" className={"h-max md:h-[100%]"}>
         <Sobre />
       </Section>
     </>
