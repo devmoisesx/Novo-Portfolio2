@@ -4,11 +4,11 @@ function Title({ title, children, className }) {
       {children}
     </h1>
   ) : title === "2" ? (
-    <h2 className={`text-4xl font-bold ${className}`}>{children}</h2>
+    <h2 className={`text-3xl font-medium ${className}`}>{children}</h2>
   ) : title === "3" ? (
-    <h3 className={`text-3xl font-medium ${className}`}>{children}</h3>
+    <h3 className={`text-3xl font-light ${className}`}>{children}</h3>
   ) : title === "4" ? (
-    <h4 className={`text-2xl ${className}`}>{children}</h4>
+    <h4 className={`text-xl ${className}`}>{children}</h4>
   ) : null;
 }
 

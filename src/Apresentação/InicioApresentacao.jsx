@@ -9,7 +9,7 @@ function InicioApresentacao() {
     <>
       <div className="flex flex-col gap-20 md:gap-10">
         <div className="text-center md:text-left flex flex-col gap-2 md:ml-7">
-          <Title title="1" className={"text-4xl md:text-6xl"}>Moisés Xavier</Title>
+          <Title title="1" className={"text-cyan-500"}>Moisés Xavier</Title>
           <Text>Lorem ipsum dolor sit amet consectetur adipisicing elit.</Text>
         </div>
         <div className="flex flex-col md:flex-row align-middle gap-2 md:ml-7">

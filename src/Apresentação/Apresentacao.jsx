@@ -10,7 +10,7 @@ function Apresentacao() {
     <>
       <Section
         id="inicioApresentacao"
-        className="flex md:grid md:grid-cols-[50%_auto] lg:grid-cols-[auto_auto] justify-items-center items-center lg:gap-20 w-full h-[90vh] lg:h-[80vh] lg:mb-20"
+        className="flex md:grid md:grid-cols-[50%_auto] lg:grid-cols-[auto_auto] justify-items-center items-center lg:gap-20 w-full h-[80vh] lg:h-[80vh] lg:mb-20"
       >
         <InicioApresentacao />
       </Section>
