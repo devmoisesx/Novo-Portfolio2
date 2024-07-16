@@ -18,7 +18,7 @@ function Apresentacao() {
       <div className="relative w-[200%]">
         <Rectangle
           className={
-            "left-[-30px] md:left-[-10px] lg:left-[-30px] top-[-30px] md:top-[-30px] lg:top-[-70px] md:w-[750px] lg:w-[1000px] xl:w-[1130px]"
+            "left-[-30px] md:left-[-10px] lg:left-[-30px] top-[-30px] md:top-[-30px] lg:top-[-70px] md:w-[920px] lg:w-[1000px] xl:w-[1130px]"
           }
         />
       </div>

@@ -1,4 +1,4 @@
-import Image from "../../assets/retangulo-2.svg";
+import Image from "../../assets/retangulo-3.svg";
 
 function Rectangle_2({ className }) {
   return (
