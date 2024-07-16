@@ -5,8 +5,8 @@ import Title from "../Components/Title";
 function Funcionalidades({ funcionalidades }) {
   return (
     <>
-      <Title title={"3"}>Funcionalidades do site</Title>
-      <Line />
+      <Title title={"3"}  className={"text-center"}>Funcionalidades do site</Title>
+      {/* <Line /> */}
       <Text className={"text-justify mt-5"}>{funcionalidades}</Text>
 
       <div className="">

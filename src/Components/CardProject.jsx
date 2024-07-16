@@ -1,3 +1,4 @@
+import Text from "./Text";
 import Title from "./Title";
 
 function CardProject({ name, tecnologies }) {
@@ -6,7 +7,9 @@ function CardProject({ name, tecnologies }) {
       <div className="bg-gray-400 w-full h-[175px] rounded-[24px] p-[8px]"></div>
       <div className="px-[10px] pt-[10px]">
         <Title title={"4"}>{name}</Title>
-        <div className="flex gap-2">{tecnologies}</div>
+        <div className="flex gap-2">
+          <Text>{tecnologies}</Text>
+        </div>
       </div>
     </div>
   );

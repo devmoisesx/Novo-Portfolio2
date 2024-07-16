@@ -10,7 +10,7 @@ function Apresentacao() {
     <>
       <Section
         id="inicioApresentacao"
-        className="flex md:grid md:grid-cols-[50%_auto] lg:grid-cols-[auto_auto] justify-items-center items-center lg:gap-20 w-full h-[90vh] lg:h-[80vh] lg:mb-20"
+        className="flex md:grid md:grid-cols-[50%_auto] lg:grid-cols-[auto_auto] justify-items-center items-center lg:gap-20 w-full h-[80vh] lg:h-[80vh] lg:mb-20"
       >
         <InicioApresentacao />
       </Section>
@@ -18,7 +18,7 @@ function Apresentacao() {
       <div className="relative w-[200%]">
         <Rectangle
           className={
-            "left-[-30px] md:left-[-10px] lg:left-[-30px] top-[-30px] md:top-[-30px] lg:top-[-70px] md:w-[750px] lg:w-[1000px] xl:w-[1130px]"
+            "left-[-30px] md:left-[-10px] lg:left-[-30px] top-[-30px] md:top-[-30px] lg:top-[-70px] md:w-[920px] lg:w-[1000px] xl:w-[1130px]"
           }
         />
       </div>
