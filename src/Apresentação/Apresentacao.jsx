@@ -26,13 +26,6 @@ function Apresentacao() {
         <Projetos />
       </Section>
 
-      {/* <div className="relative w-[500%]">
-        <Rectangle
-          className={
-            "left-[-30px] md:left-[-10px] lg:left-[50px] top-[-30px] md:top-[-30px] lg:top-[-50px] md:w-[750px] lg:w-[950px] transform -scale-x-100"
-          }
-        />
-      </div> */}
       <Section
         id="sobre"
         className={"h-max md:h-[100%] lg:px-24 relative overflow-x-hidden"}

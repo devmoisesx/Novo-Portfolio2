@@ -37,7 +37,7 @@ function Sobre() {
           <Line direction={"horizontal"} className={"mb-12 mt-12"} />
         </div>
 
-        <div className="grid gap-7 md:w-[90%] md:ml-[50px]">
+        <div className="grid gap-7 md:w-[90%] md:ml-[40px]">
           <Text>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
             architecto quod illum reiciendis et nobis, rerum ipsam aliquid
