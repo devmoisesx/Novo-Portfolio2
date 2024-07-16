@@ -1,3 +1,4 @@
+import Line from "../Components/Line";
 import Text from "../Components/Text";
 import Title from "../Components/Title";
 
@@ -5,6 +6,7 @@ function Funcionalidades({ funcionalidades }) {
   return (
     <>
       <Title title={"3"}>Funcionalidades do site</Title>
+      <Line />
       <Text className={"text-justify mt-5"}>{funcionalidades}</Text>
 
       <div className="">

@@ -1,3 +1,4 @@
+import Line from "../Components/Line";
 import Text from "../Components/Text";
 import Title from "../Components/Title";
 
@@ -5,6 +6,7 @@ function SobreProjeto({ tecnologias }) {
   return (
     <>
       <Title title={"3"}>Tecnologias utilizadas</Title>
+      <Line />
       <Text className={"text-justify mt-5"}>{tecnologias}</Text>
 
       
