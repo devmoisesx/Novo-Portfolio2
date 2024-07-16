@@ -15,10 +15,10 @@ function SobreProjeto({ tecnologias }) {
             <div className="bg-[#D9D9D9] w-48 h-80 md:w-72 md:h-[30rem] rounded-[24px] relative left-[80px] top-[80px] shadow-2lg"></div>
           </div>
           <div className="w-full">
-            <Title title={"2"} className={"text-[48px] text-center lg:text-start font-extrabold italic"}>
+            <Title title={"2"} className={" text-center lg:text-start font-extrabold italic"}>
               Responsivo
             </Title>
-            <Title title={"2"} className={"text-[48px] text-center lg:text-start font-extrabold italic mb-5"}>
+            <Title title={"2"} className={"text-center lg:text-start font-extrabold italic mb-5"}>
               Mobile First
             </Title>
             <Text className={"text-justify"}>
