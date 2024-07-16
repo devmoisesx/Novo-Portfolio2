@@ -1,6 +1,6 @@
 function Text({ className, children, ...props }) {
     return (
-      <p className={`text-[16px] ${className}`} {...props}>
+      <p className={`text-base md:text-xl ${className}`} {...props}>
         {children}
       </p>
     );
