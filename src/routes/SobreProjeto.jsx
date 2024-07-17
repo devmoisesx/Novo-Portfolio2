@@ -1,0 +1,41 @@
+import Section from "../Components/Section";
+import InicioProjeto from "../Components/SobreProjeto/InicioProjeto";
+import Tecnologias from "../Components/SobreProjeto/Tecnologias";
+import Funcionalidades from "../Components/SobreProjeto/Funcionalidades";
+import Rectangle_2 from "../Components/SVGs/Rectangle-2";
+import { useLocation } from "react-router-dom";
+
+function SobreProjeto() {
+  const location = useLocation();
+  const data = location.state;
+
+  const name = data.name;
+  const description = data.description;
+  const technologies = data.technologies;
+  const functions = data.functions;
+
+  return (
+    <>
+      <Section id="sobreProjeto" className="h-max mt-32 mb-32">
+        <InicioProjeto name={name} description={description} />
+      </Section>
+
+      <Section id="technologies" className="h-max mb-56 lg:mb-56">
+        <Tecnologias technologies={technologies} />
+      </Section>
+
+      <div className="relative w-[500%]">
+        <Rectangle_2
+          className={
+            "left-[-50px] md:left-[-10px] lg:left-[-30px] top-[-170px] md:top-[-100px] lg:top-[-135px] md:w-[755px] lg:w-[1000px] xl:w-[1130px]"
+          }
+        />
+      </div>
+      <Section id="functions" className="h-max">
+        <Funcionalidades functions={functions} />
+      </Section>
+    </>
+  );
+}
+
+export default SobreProjeto;

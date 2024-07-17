@@ -1,15 +1,17 @@
-import Button from "../Components/Button";
-import Photo from "../Components/Photo";
-import Social from "../Components/Social";
-import Text from "../Components/Text";
-import Title from "../Components/Title";
+import Button from "../Button";
+import Photo from "../Photo";
+import Social from "../Social";
+import Text from "../Text";
+import Title from "../Title";
 
 function InicioApresentacao() {
   return (
     <>
       <div className="flex flex-col gap-20 md:gap-10">
         <div className="text-center md:text-left flex flex-col gap-2 md:ml-7">
-          <Title title="1" className={"text-cyan-500"}>Moisés Xavier</Title>
+          <Title title="1" className={"text-cyan-500 text-[2.87rem] md:text-4xl"}>
+            Moisés Xavier
+          </Title>
           <Text>Lorem ipsum dolor sit amet consectetur adipisicing elit.</Text>
         </div>
         <div className="flex flex-col md:flex-row align-middle gap-2 md:ml-7">

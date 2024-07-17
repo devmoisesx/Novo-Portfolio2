@@ -1,6 +1,6 @@
-import Line from "../Components/Line";
-import Text from "../Components/Text";
-import Title from "../Components/Title";
+import Line from "../Line";
+import Text from "../Text";
+import Title from "../Title";
 
 function Sobre() {
   return (
@@ -37,7 +37,7 @@ function Sobre() {
           <Line direction={"horizontal"} className={"mb-12 mt-12"} />
         </div>
 
-        <div className="grid gap-7 md:w-[90%] md:ml-[40px]">
+        <div className="grid gap-7 md:w-[85%] md:ml-[40px]">
           <Text>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
             architecto quod illum reiciendis et nobis, rerum ipsam aliquid
