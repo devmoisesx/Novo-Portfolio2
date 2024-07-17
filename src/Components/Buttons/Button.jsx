@@ -18,7 +18,9 @@ function Button({ type, children, className, ...props }) {
           </span>
         </button>
       ) : type === "github" ? (
-        <button
+        <a
+          href="https://github.com/devmoisesx"
+          target="_blank"
           className={`text-md flex items-center gap-2 bg-bgBtnGithub rounded-full px-3 py-2 transition duration-500 ease select-none hover:bg-bgBtnGithubHover active:bg-bgBtnGithubActive active:duration-150 focus:outline-none focus:shadow-outline ${className}`}
           {...props}
         >
@@ -26,17 +28,19 @@ function Button({ type, children, className, ...props }) {
             <AiFillGithub />
           </span>
           Github
-        </button>
+        </a>
       ) : type === "linkedin" ? (
-        <button
-          className={`text-txtBlack text-md flex items-center gap-2 bg-bgBtnLinkedin rounded-full px-3 py-2 transition duration-500 ease select-none hover:bg-bgBtnLinkedinHover active:bg-bgBtnLinkedinActive active:duration-150 focus:outline-none focus:shadow-outline ${className}`}
+        <a
+          href="https://www.linkedin.com/in/moises-xavier"
+          target="_blank"
+          className={`text-txtBlack text-md flex items-center gap-2 bg-bgBtnLinkedin rounded-full px-3 py-2 transition duration-500 ease select-none hover:bg-bgBtnLinkedinHover active:bg-bgBtnLinkedinActive active:duration-150 focus:outline-none focus:shadow-outline cursor-pointer ${className}`}
           {...props}
         >
           <span className="text-blue-600 text-xl">
             <AiFillLinkedin />
           </span>
           Linkedin
-        </button>
+        </a>
       ) : (
         <button
           className={`text-[14px] bg-bgButton rounded-full px-3 py-2 transition duration-500 ease select-none hover:bg-bgButtonHover active:bg-bgButtonActive active:duration-150 focus:outline-none focus:shadow-outline ${className}`}
