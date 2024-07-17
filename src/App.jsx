@@ -6,20 +6,8 @@ function App() {
   return (
     <>
       <Header />
-      <main className="px-4 lg:px-10 w-full max-w-6xl flex flex-col">
+      <main className="px-4 lg:px-10 w-full max-w-6xl flex flex-col overflow-hidden">
         <Outlet />
-
-        {/* <Apresentacao /> */}
-
-        {/* <SobreProjeto
-          name={"Nome do Projeto"}
-          tecnologias={
-            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
-          }
-          funcionalidades={
-            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
-          }
-        /> */}
         <ScrollRestoration />
       </main>
       <footer className="grid justify-center items-center pt-[170px] pb-[20px] text-center opacity-[30%]">

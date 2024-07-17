@@ -11,7 +11,7 @@ function Header() {
           </span>
         </Link>
 
-        <nav className="hidden md:flex h-full gap-2">
+        <nav className="hidden md:flex gap-2">
           <Link to={"/"}>
             <Button>Inicio</Button>
           </Link>
