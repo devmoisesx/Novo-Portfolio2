@@ -17,7 +17,9 @@ function HomeHero() {
           </Text>
         </div>
         <div className="flex flex-col md:flex-row align-middle gap-2 md:ml-7">
-          <Button className={"text-[18px] py-2 px-3"}>Baixar Currículo</Button>
+          <Button type={"linkedin"}></Button>
+          <Button type={"github"}></Button>
+          <Button type={"curriculum"}></Button>
         </div>
       </div>
       <div className="hidden md:block">
