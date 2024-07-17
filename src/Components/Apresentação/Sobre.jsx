@@ -1,6 +1,6 @@
 import Line from "../Line";
-import Text from "../Text";
-import Title from "../Title";
+import Text from "../Text/Text";
+import Title from "../Text/Title";
 
 function Sobre() {
   return (

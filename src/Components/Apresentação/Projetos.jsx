@@ -1,9 +1,9 @@
 import Line from "../Line";
-import Text from "../Text";
-import Title from "../Title";
+import Text from "../Text/Text";
+import Title from "../Text/Title";
 import { Link } from "react-router-dom";
-import CardProject from "../CardProject";
 import projectsData from "../Projects/ProjectsData";
+import CardProject from "../Projects/CardProject";
 
 function Projetos() {
   const projectData = projectsData;
