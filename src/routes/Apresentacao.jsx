@@ -1,9 +1,9 @@
 import Section from "../Components/Section";
 import Rectangle from "../Components/SVGs/Rectangle";
 import Rectangle_2 from "../Components/SVGs/Rectangle-2";
-import InicioApresentacao from "./InicioApresentacao";
-import Projetos from "./Projetos";
-import Sobre from "./Sobre";
+import InicioApresentacao from "../Components/Apresentação/InicioApresentacao";
+import Projetos from "../Components/Apresentação/Projetos";
+import Sobre from "../Components/Apresentação/Sobre";
 
 function Apresentacao() {
   return (
@@ -22,21 +22,11 @@ function Apresentacao() {
           }
         />
       </div>
-      <Section id="projetos" className={"h-max mb-32 md:mb-60"}>
+      <Section id="projetos" className={"h-min md:h-max mb-32 md:mb-60"}>
         <Projetos />
       </Section>
 
-      {/* <div className="relative w-[500%]">
-        <Rectangle
-          className={
-            "left-[-30px] md:left-[-10px] lg:left-[50px] top-[-30px] md:top-[-30px] lg:top-[-50px] md:w-[750px] lg:w-[950px] transform -scale-x-100"
-          }
-        />
-      </div> */}
-      <Section
-        id="sobre"
-        className={"h-max md:h-[100%] lg:px-24 relative overflow-x-hidden"}
-      >
+      <Section id="sobre" className={"h-min md:h-full lg:px-24 relative"}>
         <Sobre />
       </Section>
     </>
