@@ -1,4 +1,5 @@
 import "./app.css";
+import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import { Outlet, ScrollRestoration } from "react-router-dom";
 
@@ -10,11 +11,7 @@ function App() {
         <Outlet />
         <ScrollRestoration />
       </main>
-      <footer className="grid justify-center items-center pt-[170px] pb-[20px] text-center opacity-[30%]">
-        <p>Contato</p>
-        <p>linkedin</p>
-        <p className="mt-[24px]">© 2024 Moisés Xavier.</p>
-      </footer>
+      <Footer />
     </>
   );
 }
