@@ -20,17 +20,15 @@ function HomeProjects() {
 
   return (
     <>
-      <div className="lg:px-16">
-        <Title title={"2"}>Projetos</Title>
-        <Line />
-        <Text>
-          Estes são os meus projetos, cada um representando minha dedicação e
-          criatividade na criação de experiências digitais significativas. De
-          websites funcionais a designs inovadores, cada projeto foi
-          desenvolvido com paixão para superar expectativas e proporcionar
-          resultados excepcionais.
-        </Text>
-      </div>
+      <Title title={"2"}>Projetos</Title>
+      <Line />
+      <Text>
+        Estes são os meus projetos, cada um representando minha dedicação e
+        criatividade na criação de experiências digitais significativas. De
+        websites funcionais a designs inovadores, cada projeto foi desenvolvido
+        com paixão para superar expectativas e proporcionar resultados
+        excepcionais.
+      </Text>
       <div className="flex flex-col md:grid md:grid-cols-2 lg:grid-cols-3 md:grid-rows-[auto_auto] gap-9 mt-[50px]">
         {projectData.map((project, key) => (
           <Link key={key} to={"projetos/" + project.name} state={project}>

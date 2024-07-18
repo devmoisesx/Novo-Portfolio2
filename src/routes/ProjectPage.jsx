@@ -19,11 +19,11 @@ function SobreProjeto() {
 
   return (
     <>
-      <Section id="sobreProjeto" className="h-min mt-32 mb-32">
+      <Section id="sobreProjeto" className="h-max mt-32 mb-32 lg:px-16">
         <InicioProjeto name={name(data.name)} description={description} />
       </Section>
 
-      <Section id="technologies" className="h-min mb-56 lg:mb-80">
+      <Section id="technologies" className="h-min mb-80 lg:mb-20 lg:px-16">
         <Tecnologias technologies={technologies} />
       </Section>
 
@@ -34,7 +34,7 @@ function SobreProjeto() {
           }
         />
       </div>
-      <Section id="functions" className="h-min">
+      <Section id="functions" className="h-max lg:px-16">
         <Funcionalidades functions={functions} />
       </Section>
     </>

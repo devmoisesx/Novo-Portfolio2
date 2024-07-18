@@ -7,7 +7,7 @@ function HomeHero() {
   return (
     <>
       <div className="flex flex-col gap-20 md:gap-10">
-        <div className="text-center md:text-left flex flex-col gap-2 md:ml-7">
+        <div className="text-center md:text-left flex flex-col gap-2">
           <Title title="1" className={"text-txtH1 text-[2.87rem] md:text-5xl"}>
             Moisés Xavier
           </Title>
@@ -16,7 +16,7 @@ function HomeHero() {
             digitais que proporcionam experiências intuitivas e funcionais.
           </Text>
         </div>
-        <div className="flex flex-col md:flex-row align-middle gap-2 md:ml-7">
+        <div className="flex flex-col md:flex-row align-middle gap-2">
           <Button type={"linkedin"}></Button>
           <Button type={"github"}></Button>
           {/* <Button type={"curriculum"}></Button> */}

@@ -12,7 +12,7 @@ function CardProject({ name, stacks }) {
           <div className="px-[20px] pt-[10px]">
             <Title title={"4"}>{name}</Title>
             <div className="flex gap-2">
-              <Text>{stacks}</Text>
+              <Text className={"!text-sm mt-1"}>{stacks}</Text>
             </div>
           </div>
         </div>
