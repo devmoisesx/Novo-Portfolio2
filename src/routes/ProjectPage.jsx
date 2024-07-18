@@ -9,7 +9,10 @@ function SobreProjeto() {
   const location = useLocation();
   const data = location.state;
 
-  const name = data.name;
+  const name = (name) => {
+    const capitalize = name.charAt(0).toUpperCase() + name.slice(1);
+    return capitalize.replace("_", " ");
+  };
   const description = data.description;
   const technologies = data.technologies;
   const functions = data.functions;
@@ -17,7 +20,7 @@ function SobreProjeto() {
   return (
     <>
       <Section id="sobreProjeto" className="h-min mt-32 mb-32">
-        <InicioProjeto name={name} description={description} />
+        <InicioProjeto name={name(data.name)} description={description} />
       </Section>
 
       <Section id="technologies" className="h-min mb-56 lg:mb-80">

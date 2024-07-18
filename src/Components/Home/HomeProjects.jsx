@@ -14,10 +14,10 @@ function HomeProjects() {
   };
 
   const stacksProject = (stacks) => {
-    const separate = stacks.join(" ")
-    return separate
-  }
-  
+    const separate = stacks.join(" ");
+    return separate;
+  };
+
   return (
     <>
       <div className="lg:px-16">
@@ -29,30 +29,14 @@ function HomeProjects() {
         </Text>
       </div>
       <div className="flex flex-col md:grid md:grid-cols-2 lg:grid-cols-3 md:grid-rows-[auto_auto] gap-9 mt-[50px]">
-        <Link to={"projetos/" + projectData[0].name} state={projectData[0]}>
-          <CardProject
-            name={nameProject(projectData[0].name)}
-            stacks={stacksProject(projectData[0].stacks)}
-          />
-        </Link>
-        <Link to={"projetos/" + projectData[1].name} state={projectData[1]}>
-          <CardProject
-            name={projectData[1].name}
-            stacks={projectData[1].stacks}
-          />
-        </Link>
-        <Link to={"projetos/" + projectData[2].name} state={projectData[2]}>
-          <CardProject
-            name={projectData[2].name}
-            stacks={projectData[2].stacks}
-          />
-        </Link>
-        <Link to={"projetos/" + projectData[3].name} state={projectData[3]}>
-          <CardProject
-            name={projectData[3].name}
-            stacks={projectData[3].stacks}
-          />
-        </Link>
+        {projectData.map((project, key) => (
+          <Link key={key} to={"projetos/" + project.name} state={project}>
+            <CardProject
+              name={nameProject(project.name)}
+              stacks={stacksProject(project.stacks)}
+            />
+          </Link>
+        ))}
       </div>
     </>
   );
