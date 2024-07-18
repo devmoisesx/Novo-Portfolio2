@@ -7,37 +7,39 @@ function HomeAbout() {
     <>
       <Title title={"2"}>Sobre mim</Title>
       <Line />
-      <div className="md:grid grid-cols-[1fr_auto_1fr] md:gap-[20px]">
-        <div className="grid gap-7 md:w-[90%]">
+      <div className="">
+        <div className="grid gap-7">
           <Text>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
-            architecto quod illum reiciendis et nobis, rerum ipsam aliquid
-            suscipit temporibus explicabo. Deserunt suscipit eveniet totam
-            delectus facilis natus? Magnam, quae?
+            Meu nome é Moisés Xavier e sou estudante de Análise e
+            Desenvolvimento de Sistemas.
           </Text>
           <Text>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
-            architecto quod illum reiciendis et nobis, rerum ipsam aliquid
-            suscipit temporibus explicabo. Deserunt suscipit eveniet totam
-            delectus facilis natus? Magnam, quae?
+            Atualmente, estou mergulhado no curso Oracle ONE em parceria com a
+            Alura, aprimorando minhas habilidades tanto no desenvolvimento
+            Front-End quanto Back-End.
           </Text>
           <Text>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
-            architecto quod illum reiciendis et nobis, rerum ipsam aliquid
-            suscipit temporibus explicabo. Deserunt suscipit eveniet totam
-            delectus facilis natus? Magnam, quae?
+            Aprofundo meus estudos em HTML, CSS e estou explorando JavaScript
+            para criar interfaces dinâmicas e responsivas. Além disso, estou
+            aprendendo React para desenvolvimento de interfaces modernas, SQL
+            para manipulação de bancos de dados e Java para aplicações robustas.
+          </Text>
+          <Text>
+            Minha jornada é marcada pela busca contínua por aprender e aplicar
+            tecnologias modernas, sempre empenhado em criar soluções eficientes
+            e inovadoras.
           </Text>
         </div>
-
+        {/* 
         <div className="hidden md:block">
           <Line direction={"vertical"} />
         </div>
 
         <div className="block md:hidden">
           <Line direction={"horizontal"} className={"mb-12 mt-12"} />
-        </div>
+        </div> */}
 
-        <div className="grid gap-7 md:w-[85%] md:ml-[40px]">
+        {/* <div className="grid gap-7 md:w-[85%] md:ml-[40px]">
           <Text>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
             architecto quod illum reiciendis et nobis, rerum ipsam aliquid
@@ -56,7 +58,7 @@ function HomeAbout() {
             suscipit temporibus explicabo. Deserunt suscipit eveniet totam
             delectus facilis natus? Magnam, quae?
           </Text>
-        </div>
+        </div> */}
       </div>
     </>
   );

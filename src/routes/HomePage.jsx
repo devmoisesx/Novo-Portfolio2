@@ -9,7 +9,7 @@ function Home() {
     <>
       <Section
         id="homeHero"
-        className="flex md:grid md:grid-cols-[50%_auto] lg:grid-cols-[auto_auto] justify-items-center items-center lg:gap-20 w-full h-[80vh] lg:h-[80vh] lg:mb-20"
+        className="flex md:grid md:grid-cols-[50%_auto] lg:grid-cols-[auto_auto] justify-items-center items-center lg:gap-20 w-full h-[75vh] lg:h-[80vh] lg:mb-20"
       >
         <HomeHero />
       </Section>
@@ -21,11 +21,11 @@ function Home() {
           }
         />
       </div>
-      <Section id="homeProjects" className={"h-min md:h-max mb-32 md:mb-60"}>
+      <Section id="homeProjects" className={"h-max mb-32 md:mb-60"}>
         <HomeProjects />
       </Section>
 
-      <Section id="homeAbout" className={"h-min md:h-full lg:px-24 relative"}>
+      <Section id="homeAbout" className={"h-max lg:px-24"}>
         <HomeAbout />
       </Section>
     </>

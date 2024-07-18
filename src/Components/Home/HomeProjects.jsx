@@ -24,8 +24,11 @@ function HomeProjects() {
         <Title title={"2"}>Projetos</Title>
         <Line />
         <Text>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint neque ea
-          nesciunt quisquam deserunt.
+          Estes são os meus projetos, cada um representando minha dedicação e
+          criatividade na criação de experiências digitais significativas. De
+          websites funcionais a designs inovadores, cada projeto foi
+          desenvolvido com paixão para superar expectativas e proporcionar
+          resultados excepcionais.
         </Text>
       </div>
       <div className="flex flex-col md:grid md:grid-cols-2 lg:grid-cols-3 md:grid-rows-[auto_auto] gap-9 mt-[50px]">
