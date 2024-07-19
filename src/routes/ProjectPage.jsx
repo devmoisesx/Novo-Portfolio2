@@ -1,7 +1,7 @@
 import Section from "../Components/Section";
-import InicioProjeto from "../Components/Project/ProjectHero";
-import Tecnologias from "../Components/Project/ProjectTechnologies";
-import Funcionalidades from "../Components/Project/ProjectFunctions";
+import ProjectHero from "../Components/Project/ProjectHero";
+import ProjectTechnologies from "../Components/Project/ProjectTechnologies";
+import ProjectFunctions from "../Components/Project/ProjectFunctions";
 import Rectangle_2 from "../Components/SVGs/Rectangle-2";
 import { useLocation } from "react-router-dom";
 
@@ -17,15 +17,23 @@ function SobreProjeto() {
   const description = data.description;
   const technologies = data.technologies;
   const functions = data.functions;
+  const images = data.images;
 
   return (
     <>
       <Section id="sobreProjeto" className="h-max mt-32 mb-32 lg:px-16">
-        <InicioProjeto name={name(data.name)} description={description} />
+        <ProjectHero
+          name={name(data.name)}
+          description={description}
+          image={images[0]}
+        />
       </Section>
 
       <Section id="technologies" className="h-min mb-60 lg:px-16">
-        <Tecnologias technologies={technologies} />
+        <ProjectTechnologies
+          technologies={technologies}
+          images={[images[1], images[2]]}
+        />
       </Section>
 
       <div className="relative w-[500%]">
@@ -36,7 +44,10 @@ function SobreProjeto() {
         />
       </div>
       <Section id="functions" className="h-max lg:px-16">
-        <Funcionalidades functions={functions} />
+        <ProjectFunctions
+          functions={functions}
+          images={[images[3], images[4]]}
+        />
       </Section>
     </>
   );

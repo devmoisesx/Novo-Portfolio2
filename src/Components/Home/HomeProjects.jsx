@@ -36,6 +36,7 @@ function HomeProjects() {
             <CardProject
               name={nameProject(project.name)}
               stacks={stacksProject(project.stacks)}
+              image={project.images[0]}
             />
           </Link>
         ))}

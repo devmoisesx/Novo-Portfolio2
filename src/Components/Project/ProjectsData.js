@@ -9,6 +9,13 @@ const projectsData = [
     technologies:
       "Desenvolvida utilizando HTML para estruturação, CSS para estilização, JavaScript para funcionalidades interativas, e Git para controle de versionamento do código. Essas tecnologias foram escolhidas para garantir uma aplicação web completa, com design atraente e funcionalidades dinâmicas.",
     stacks: ["HTML", "CSS", "JavaScript", "Git"],
+    images: [
+      "https://github.com/devmoisesx/Zaphira/raw/main/public/assets/image%20(1).png",
+      "https://github.com/devmoisesx/Zaphira/raw/main/public/assets/image%20(4).png",
+      "https://github.com/devmoisesx/Zaphira/raw/main/public/assets/image%20(5).png",
+      "https://github.com/devmoisesx/Zaphira/raw/main/public/assets/image%20(2).png",
+      "https://github.com/devmoisesx/Zaphira/raw/main/public/assets/image%20(3).png",
+    ],
   },
   {
     id: 2,
@@ -20,6 +27,13 @@ const projectsData = [
     technologies:
       "Foi desenvolvido utilizando tecnologias modernas para garantir uma experiência interativa e responsiva. Utilizando HTML, CSS e Tailwind CSS para facilitar o design responsivo e eficiente. JavaScript, React e Redux foram empregados para implementar funcionalidades dinâmicas e gerenciamento de estado avançado, permitindo uma navegação fluida e interativa pelos produtos. Essas stacks combinadas proporcionam um ambiente robusto e escalável para operações comerciais online eficazes.",
     stacks: ["HTML", "CSS", "JavaScript", "React", "Redux", "Tailwind"],
+    images: [
+      "https://github.com/devmoisesx/Zaphira/raw/main/public/assets/image%20(1).png",
+      "https://github.com/devmoisesx/Zaphira/raw/main/public/assets/image%20(4).png",
+      "https://github.com/devmoisesx/Zaphira/raw/main/public/assets/image%20(5).png",
+      "https://github.com/devmoisesx/Zaphira/raw/main/public/assets/image%20(2).png",
+      "https://github.com/devmoisesx/Zaphira/raw/main/public/assets/image%20(3).png",
+    ],
   },
   {
     id: 3,
@@ -31,6 +45,13 @@ const projectsData = [
     technologies:
       "Desenvolvida utilizando HTML para estruturação, CSS para estilização, JavaScript para funcionalidades interativas, e Git para controle de versionamento do código. Essas tecnologias foram escolhidas para garantir uma aplicação web completa, com design atraente e funcionalidades dinâmicas.",
     stacks: ["HTML", "CSS", "JavaScript", "Git"],
+    images: [
+      "https://github.com/devmoisesx/Zaphira/raw/main/public/assets/image%20(1).png",
+      "https://github.com/devmoisesx/Zaphira/raw/main/public/assets/image%20(4).png",
+      "https://github.com/devmoisesx/Zaphira/raw/main/public/assets/image%20(5).png",
+      "https://github.com/devmoisesx/Zaphira/raw/main/public/assets/image%20(2).png",
+      "https://github.com/devmoisesx/Zaphira/raw/main/public/assets/image%20(3).png",
+    ],
   },
   {
     id: 4,
@@ -42,6 +63,13 @@ const projectsData = [
     technologies:
       "Desenvolvida utilizando HTML para estruturação, CSS para estilização, JavaScript para funcionalidades interativas, e Git para controle de versionamento do código. Essas tecnologias foram escolhidas para garantir uma aplicação web completa, com design atraente e funcionalidades dinâmicas.",
     stacks: ["HTML", "CSS", "JavaScript", "React"],
+    images: [
+      "https://github.com/devmoisesx/Zaphira/raw/main/public/assets/image%20(1).png",
+      "https://github.com/devmoisesx/Zaphira/raw/main/public/assets/image%20(4).png",
+      "https://github.com/devmoisesx/Zaphira/raw/main/public/assets/image%20(5).png",
+      "https://github.com/devmoisesx/Zaphira/raw/main/public/assets/image%20(2).png",
+      "https://github.com/devmoisesx/Zaphira/raw/main/public/assets/image%20(3).png",
+    ],
   },
   {
     id: 5,
@@ -53,6 +81,13 @@ const projectsData = [
     technologies:
       "Desenvolvida utilizando HTML para estruturação, CSS para estilização, JavaScript para funcionalidades interativas, e Git para controle de versionamento do código. Essas tecnologias foram escolhidas para garantir uma aplicação web completa, com design atraente e funcionalidades dinâmicas.",
     stacks: ["HTML", "CSS", "JavaScript", "React"],
+    images: [
+      "https://github.com/devmoisesx/Zaphira/raw/main/public/assets/image%20(1).png",
+      "https://github.com/devmoisesx/Zaphira/raw/main/public/assets/image%20(4).png",
+      "https://github.com/devmoisesx/Zaphira/raw/main/public/assets/image%20(5).png",
+      "https://github.com/devmoisesx/Zaphira/raw/main/public/assets/image%20(2).png",
+      "https://github.com/devmoisesx/Zaphira/raw/main/public/assets/image%20(3).png",
+    ],
   },
 ];
 
