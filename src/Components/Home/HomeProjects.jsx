@@ -10,7 +10,8 @@ function HomeProjects() {
 
   const nameProject = (name) => {
     const capitalize = name.charAt(0).toUpperCase() + name.slice(1);
-    return capitalize.replace("_", " ");
+    const spaces = capitalize.split("_");
+    return spaces.join(" ");
   };
 
   const stacksProject = (stacks) => {

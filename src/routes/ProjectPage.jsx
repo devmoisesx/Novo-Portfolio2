@@ -11,7 +11,8 @@ function SobreProjeto() {
 
   const name = (name) => {
     const capitalize = name.charAt(0).toUpperCase() + name.slice(1);
-    return capitalize.replace("_", " ");
+    const spaces = capitalize.split("_");
+    return spaces.join(" ");
   };
   const description = data.description;
   const technologies = data.technologies;
@@ -23,7 +24,7 @@ function SobreProjeto() {
         <InicioProjeto name={name(data.name)} description={description} />
       </Section>
 
-      <Section id="technologies" className="h-min mb-80 lg:mb-60 lg:px-16">
+      <Section id="technologies" className="h-min mb-60 lg:px-16">
         <Tecnologias technologies={technologies} />
       </Section>
 

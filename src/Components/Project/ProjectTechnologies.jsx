@@ -29,11 +29,13 @@ function SobreProjeto({ technologies }) {
             Mobile First
           </Title>
           <Text className={"text-justify"}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore,
-            consectetur? Harum, at neque! Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Dolore, consectetur? Harum, at neque! Lorem ipsum
-            dolor sit amet consectetur adipisicing elit. Dolore, consectetur?
-            Harum, at neque!
+            O site foi projetado com uma abordagem mobile first, garantindo
+            que seja completamente responsivo e adaptável a dispositivos móveis
+            antes de ser otimizado para desktops. Essa estratégia não apenas
+            melhora a experiência do usuário em smartphones e tablets, mas
+            também assegura que o design seja fluido e eficaz em qualquer tela,
+            proporcionando acesso intuitivo e eficiente ao conteúdo em todas as
+            plataformas.
           </Text>
         </div>
       </div>
