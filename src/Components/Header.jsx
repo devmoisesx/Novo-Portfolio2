@@ -23,7 +23,7 @@ function Header() {
         )}
         <Link to={"/"}></Link>
 
-        <nav className="hidden md:flex gap-2">
+        <nav className="flex gap-2">
           {location.pathname !== "/" ? (
             <Link2 to="/">
               <Button>Inicio</Button>
@@ -52,13 +52,13 @@ function Header() {
             </Link>
           )}
         </nav>
-        <Button
+        {/* <Button
           className={
             "w-[34px] h-full active:w-[28px] active:h-[28px] px-0 md:hidden"
           }
         >
           =
-        </Button>
+        </Button> */}
       </div>
     </header>
   );

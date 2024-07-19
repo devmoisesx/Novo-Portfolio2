@@ -23,7 +23,7 @@ function SobreProjeto() {
         <InicioProjeto name={name(data.name)} description={description} />
       </Section>
 
-      <Section id="technologies" className="h-min mb-80 lg:mb-20 lg:px-16">
+      <Section id="technologies" className="h-min mb-80 lg:mb-60 lg:px-16">
         <Tecnologias technologies={technologies} />
       </Section>
 

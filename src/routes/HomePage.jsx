@@ -25,7 +25,7 @@ function Home() {
         <HomeProjects />
       </Section>
 
-      <Section id="homeAbout" className={"h-max lg:px-16"}>
+      <Section id="homeAbout" className={" lg:px-16"}>
         <HomeAbout />
       </Section>
     </>

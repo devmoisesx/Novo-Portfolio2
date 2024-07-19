@@ -22,8 +22,14 @@ function HomeHero() {
           {/* <Button type={"curriculum"}></Button> */}
         </div>
       </div>
-      <div className="hidden md:block">
-        <Photo />
+      <div className="hidden md:block bg-slate-700 w-[300px] h-[300px] rounded-[35px] overflow-hidden p-2 object-cover">
+        <Photo
+          src={
+            "https://media.licdn.com/dms/image/D4D03AQENlJ2SmRkQJw/profile-displayphoto-shrink_200_200/0/1720675285127?e=1726704000&v=beta&t=9vQcIzyWKSmM6e6LnJPDnxAK8fbTkxJBxSwEC0Nz-j8"
+          }
+          alt={"Foto do dono do site"}
+          className={"w-[800px] rounded-[25px] object-fill"}
+        />
       </div>
     </>
   );
