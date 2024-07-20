@@ -43,11 +43,8 @@ function SobreProjeto() {
           }
         />
       </div>
-      <Section id="functions" className="h-max lg:px-16">
-        <ProjectFunctions
-          functions={functions}
-          images={[images[3], images[4]]}
-        />
+      <Section id="functions" className="h-max pb-10 lg:px-16">
+        <ProjectFunctions functions={functions} images={data.images.slice(3)} />
       </Section>
     </>
   );

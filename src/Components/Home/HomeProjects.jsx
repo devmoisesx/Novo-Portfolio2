@@ -30,7 +30,7 @@ function HomeProjects() {
         com paixão para superar expectativas e proporcionar resultados
         excepcionais.
       </Text>
-      <div className="flex flex-col md:grid md:grid-cols-2 lg:grid-cols-3 md:grid-rows-[auto_auto] gap-9 mt-[50px]">
+      <div className="w-full flex flex-col md:grid md:grid-cols-2 gap-9 mt-[50px]">
         {projectData.map((project, key) => (
           <Link key={key} to={"projetos/" + project.name} state={project}>
             <CardProject

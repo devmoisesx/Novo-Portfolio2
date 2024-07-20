@@ -4,7 +4,6 @@ import Text from "../Text/Text";
 import Title from "../Text/Title";
 
 function ProjectFunctions({ functions, images }) {
-  console.log(images.length);
   return (
     <>
       <Title title={"3"} className={"text-center"}>
